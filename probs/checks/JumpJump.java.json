@@ -1,0 +1,39 @@
+{
+    "problem_name": "JumpJump.java",
+    "problem_title": "¡Salto, salto!",
+    "description": "En un juego de plataformas, el personaje debe ir dando saltos para poder avanzar. En la situación siguiente, por ejemplo, deberá hacer 3 saltos para llegar al final:\n\nPodemos entender el mapa del juego como una sucesión de números que indican la altura del terreno. En el caso anterior se podría definir como:\n\n1 2 1 2 2 3 2 1\n\nEn cada salto, el personaje puede avanzar solo 1 casilla.",
+    "input_format": "La entrada consta de una sucesión de N números que indican la altura H del terreno. La sucesión termina con un -1 (que no se tiene en cuenta).",
+    "constraints": "-",
+    "output_format": "Se imprimirá el número mínimo de saltos que necesita dar para llegar al final.",
+    "params_count": 1,
+    "outputs_count": 1,
+    "total_test_cases": 6,
+    "use_locale": false,
+    "test_cases": [
+      {
+        "inputs": [ "1 2 1 2 1 2 3 1 -1" ],
+        "expected_outputs": [ "4" ]
+      },
+      {
+        "inputs": [ "2 2 1 1 1 2 3 1 -1" ],
+        "expected_outputs": [ "2" ]
+      },
+      {
+        "inputs": [ "3 3 2 2 1 -1" ],
+        "expected_outputs": [ "0" ]
+      },
+      {
+        "inputs": [ "1 2 3 4 -1" ],
+        "expected_outputs": [ "3" ]
+      },
+      {
+        "inputs": [ "1 -1" ],
+        "expected_outputs": [ "0" ]
+      },
+      {
+        "inputs": [ "1 2 3 4 1 2 3 4 5 6 7 8 1 -1" ],
+        "expected_outputs": [ "10" ]
+      }
+    ]
+  }
+  

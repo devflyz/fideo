@@ -1,0 +1,18 @@
+{
+  "problem_name": "DeCeroACuatro.java",
+  "problem_title": "De 0 a 4",
+  "description": "Escribe un programa que imprima los números de 0 a 4 inclusive. Cada número debe estar en una nueva línea.",
+  "input_format": "-",
+  "constraints": "-",
+  "output_format": "-",
+  "params_count": 0,
+  "outputs_count": 1,
+  "total_test_cases": 1,
+  "use_locale": false,
+  "test_cases": [
+    {
+      "inputs": [],
+      "expected_outputs": ["0\n1\n2\n3\n4"]
+    }
+  ]
+}

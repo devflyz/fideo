@@ -1,0 +1,18 @@
+{
+  "problem_name": "EjercicioDatos.java",
+  "problem_title": "Muestra de Datos en Java",
+  "description": "Crear un programa en Java que muestre por pantalla un String, un caracter, un número entero, un número decimal y un booleano.",
+  "input_format": "No se requiere entrada de usuario.",
+  "constraints": "No hay restricciones específicas.",
+  "output_format": "El programa debe mostrar por pantalla los siguientes datos:\n- String: Aguila\n- Caracter: z\n- Numero entero: 17\n- Numero decimal: 23.92\n- Boolean: false",
+  "params_count": 0,
+  "outputs_count": 1,
+  "total_test_cases": 1,
+  "use_locale": false,
+  "test_cases": [
+    {
+      "inputs": [],
+      "expected_outputs": "String: Aguila\nCaracter: z\nNumero entero: 17\nNumero decimal: 23.92\nBoolean: false"
+    }
+  ]
+}

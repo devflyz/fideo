@@ -1,0 +1,31 @@
+{
+    "problem_name": "Diccionario.java",
+    "problem_title": "Diccionario",
+    "description": "Cuando programamos juegos que utilizan palabras (como el Scrabble, Sopa de letras, Ahorcado, ...), puede ser muy útil tener una lista con todas las posibles palabras.\n\nEn Linux, tenemos el archivo /usr/share/dict con una completa lista de palabras, y podríamos programar un método para buscar una palabra en él.\n\nTambién disponemos del recurso de la metaprogramación, que consiste en programas que escriben otros programas. Haciendo uso de esta herramienta, podemos hacer un programa que genere un programa en Java que contenga un array con las palabras del diccionario.",
+    "input_format": "Una lista de palabras, separadas por saltos de línea.\n\nLa lista de palabras termina con END",
+    "constraints": "No hay restricciones significativas.",
+    "output_format": "Se generará un programa Java con una clase llamada Diccionario, que inicialice un array de Strings con las palabras, llamado words.",
+    "params_count": 1,
+    "outputs_count": 1,
+    "total_test_cases": 4,
+    "use_locale": false,
+    "test_cases": [
+      {
+        "inputs": [ "una\nllista\nde\nparaules\n__END__" ],
+        "expected_outputs": [ "class Diccionario {\n    String[] words = {\n        \"una\",\n        \"llista\",\n        \"de\",\n        \"paraules\"\n    };\n}" ]
+      },
+      {
+        "inputs": [ "festival\ntriangle\nmunicipi\nbatalla\nvoleibol\n__END__" ],
+        "expected_outputs": [ "class Diccionario {\n    String[] words = {\n        \"festival\",\n        \"triangle\",\n        \"municipi\",\n        \"batalla\",\n        \"voleibol\"\n    };\n}" ]
+      },
+      {
+        "inputs": [ "metaprogramming\n__END__" ],
+        "expected_outputs": [ "class Diccionario {\n    String[] words = {\n        \"metaprogramming\"\n    };\n}" ]
+      },
+      {
+        "inputs": [ "metaprogramming\nrocks\n__END__" ],
+        "expected_outputs": [ "class Diccionario {\n    String[] words = {\n        \"metaprogramming\",\n        \"rocks\"\n    };\n}" ]
+      }
+    ]
+  }
+  

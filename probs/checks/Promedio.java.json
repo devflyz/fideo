@@ -1,0 +1,26 @@
+{
+  "problem_name": "Promedio.java",
+  "problem_title": "Promedio de tres números",
+  "description": "Calcula el promedio de tres números dados.",
+  "input_format": "Tres números enteros o decimales separados por espacios en blanco.",
+  "constraints": "Los números pueden ser enteros o decimales.",
+  "output_format": "Un número decimal representando el promedio de los tres números.",
+  "params_count": 3,
+  "outputs_count": 1,
+  "total_test_cases": 3,
+  "use_locale": true,
+  "test_cases": [
+    {
+      "inputs": [10, 15, 20],
+      "expected_outputs": [15.0]
+    },
+    {
+      "inputs": [2.5, 3.5, 4.5],
+      "expected_outputs": [3.5]
+    },
+    {
+      "inputs": [7, 7, 7],
+      "expected_outputs": [7.0]
+    }
+  ]
+}

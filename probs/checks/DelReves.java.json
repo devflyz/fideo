@@ -1,0 +1,31 @@
+{
+    "problem_name": "DelReves.java",
+    "problem_title": "Del revés",
+    "description": "Dada una secuencia de números, mostrarla en orden inverso.",
+    "input_format": "El primer número indica la cantidad de números que hay en la secuencia.\n\nA continuación vienen los números de la secuencia.",
+    "constraints": "-",
+    "output_format": "La secuencia de números en orden inverso, separados por espacios.",
+    "params_count": 1,
+    "outputs_count": 1,
+    "total_test_cases": 4,
+    "use_locale": false,
+    "test_cases": [
+      {
+        "inputs": [ "5\n100 200 300 400 500" ],
+        "expected_outputs": [ "500 400 300 200 100" ]
+      },
+      {
+        "inputs": [ "3\n23 56 45" ],
+        "expected_outputs": [ "45 56 23" ]
+      },
+      {
+        "inputs": [ "1\n1000" ],
+        "expected_outputs": [ "1000" ]
+      },
+      {
+        "inputs": [ "10\n3 1 4 2 6 5 4 7 6 9" ],
+        "expected_outputs": [ "9 6 7 4 5 6 2 4 1 3" ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,46 @@
+{
+  "problem_name": "DivisiblesPor3.java",
+  "problem_title": "Divisibles por 3",
+  "description": "Dado un rango de números, encuentra todos los números dentro de ese rango que son divisibles por 3.",
+  "input_format": "La entrada consta de dos números enteros separados por espacio: a y b (1 ≤ a ≤ b ≤ 1000).",
+  "constraints": "1 ≤ a ≤ b ≤ 1000",
+  "output_format": "Imprime en líneas separadas todos los números dentro del rango [a, b] que son divisibles por 3, en orden ascendente.",
+  "params_count": 2,
+  "outputs_count": 1,
+  "total_test_cases": 8,
+  "use_locale": false,
+  "test_cases": [
+    {
+      "inputs": ["1", "7"],
+      "expected_outputs": ["3\n6"]
+    },
+    {
+      "inputs": ["5", "10"],
+      "expected_outputs": ["6\n9"]
+    },
+    {
+      "inputs": ["10", "22"],
+      "expected_outputs": ["12\n15\n18\n21"]
+    },
+    {
+      "inputs": ["3", "7"],
+      "expected_outputs": ["3\n6"]
+    },
+    {
+      "inputs": ["-1", "3"],
+      "expected_outputs": ["0\n3"]
+    },
+    {
+      "inputs": ["12", "45"],
+      "expected_outputs": ["12\n15\n18\n21\n24\n27\n30\n33\n36\n39\n42\n45"]
+    },
+    {
+      "inputs": ["99", "102"],
+      "expected_outputs": ["99\n102"]
+    },
+    {
+      "inputs": ["3", "7"],
+      "expected_outputs": ["3\n6"]
+    }
+  ]
+}

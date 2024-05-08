@@ -1,0 +1,34 @@
+{
+    "problem_name": "MenusRestaurante.java",
+    "problem_title": "Menús de un Restaurante",
+    "description": "Una empresa de restauración HML quiere saber la cantidad total de desayunos, almuerzos, meriendas o cenas que ha servido en un día. La empresa de restauración tiene 2 restaurantes (A y B). Realiza un programa que solicite 3 números (opción del menú, total de comidas del restaurante A, total de comidas del restaurante B), y muestre en pantalla el menú correspondiente. Dependiendo de la opción elegida, el programa mostrará el total de comidas (desayunos, almuerzos, meriendas o cenas) de los 2 restaurantes.",
+    "input_format": "La entrada consta de 3 números: La opción del menú elegida, el total de comidas del restaurante A y el total de comidas del restaurante B.",
+    "constraints": [
+      "Si el usuario introduce una opción del menú diferente de las 4 opciones, el programa mostrará el mensaje OPCION INEXISTENTE !! y finalizará.",
+      "Se puede asumir que el total de comidas de cada restaurante siempre será un número entero positivo."
+    ],
+    "output_format": "Se imprimirá el total (desayunos, almuerzos, meriendas o cenas) de los 2 restaurantes, dependiendo de la opción elegida del menú.",
+    "sample_input": [
+      {
+        "input": "3 15 20",
+        "output": "MENÚ:\n1.- DESAYUNOS\n2.- ALMUERZOS\n3.- MERIENDAS\n4.- CENAS\n\nTotal MERIENDAS del restaurante A y B: 35"
+      },
+      {
+        "input": "2 32 16",
+        "output": "MENÚ:\n1.- DESAYUNOS\n2.- ALMUERZOS\n3.- MERIENDAS\n4.- CENAS\n\nTotal ALMUERZOS del restaurante A y B: 48"
+      },
+      {
+        "input": "4 46 35",
+        "output": "MENÚ:\n1.- DESAYUNOS\n2.- ALMUERZOS\n3.- MERIENDAS\n4.- CENAS\n\nTotal CENAS del restaurante A y B: 81"
+      },
+      {
+        "input": "1 0 5",
+        "output": "MENÚ:\n1.- DESAYUNOS\n2.- ALMUERZOS\n3.- MERIENDAS\n4.- CENAS\n\nTotal DESAYUNOS del restaurante A y B: 5"
+      },
+      {
+        "input": "9 23 18",
+        "output": "MENÚ:\n1.- DESAYUNOS\n2.- ALMUERZOS\n3.- MERIENDAS\n4.- CENAS\n\nOPCIÓN INEXISTENTE !!"
+      }
+    ]
+  }
+  

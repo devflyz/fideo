@@ -1,0 +1,30 @@
+{
+  "problem_name": "Despedida.java",
+  "problem_title": "Despedida",
+  "description": "Imprime un mensaje de despedida en pantalla.",
+  "input_format": "Un string con el nombre de una persona.",
+  "constraints": "-",
+  "output_format": "La palabra 'Adiós' seguida de un espacio en blanco, el nombre de la persona, y un signo de exclamación '!'.",
+  "params_count": 1,
+  "outputs_count": 1,
+  "total_test_cases": 4,
+  "use_locale": false,
+  "test_cases": [
+    {
+      "inputs": ["Joan"],
+      "expected_outputs": ["Adiós Joan!"]
+    },
+    {
+      "inputs": ["Anna"],
+      "expected_outputs": ["Adiós Anna!"]
+    },
+    {
+      "inputs": ["Josep Antoni"],
+      "expected_outputs": ["Adiós Josep Antoni!"]
+    },
+    {
+      "inputs": ["Maria Elena"],
+      "expected_outputs": ["Adiós Maria Elena!"]
+    }
+  ]
+}

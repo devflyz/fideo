@@ -1,0 +1,47 @@
+{
+    "problem_name": "FizzBuzz.java",
+    "problem_title": "Fizz Buzz",
+    "description": "Fizz Buzz es un problema clásico:\n\nEscribe un programa que imprima cada número entre i (inclusivo).\n\nSi el número es múltiplo de 3, imprime Fizz en lugar del número.\n\nSi el número es múltiplo de 5, imprime Buzz en lugar del número.\n\nSi el número es múltiplo de 3 y 5, imprime FizzBuzz en lugar del número.",
+    "input_format": "Dos números enteros i",
+    "constraints": ">= 0",
+    "output_format": "Cada número o Fizz o Buzz o FizzBuzz en una línea diferente",
+    "params_count": 1,
+    "outputs_count": 1,
+    "total_test_cases": 8,
+    "use_locale": false,
+    "test_cases": [
+      {
+        "inputs": [ "16 9" ],
+        "expected_outputs": [ "16\nFizzBuzz\n14\n13\nFizz\n11\nBuzz\nFizz" ]
+      },
+      {
+        "inputs": [ "5 3" ],
+        "expected_outputs": [ "Buzz\n4\nFizz" ]
+      },
+      {
+        "inputs": [ "30 25" ],
+        "expected_outputs": [ "FizzBuzz\n29\n28\nFizz\n26\nBuzz\nFizz" ]
+      },
+      {
+        "inputs": [ "45 15" ],
+        "expected_outputs": [ "FizzBuzz\n44\n43\nFizz\n41\nBuzz\nFizz\n38\n37\nFizz\nBuzz\n34\nFizz\n32\n31\nFizzBuzz\n29\n28\nFizz\n26\nBuzz\nFizz\n23\n22\nFizz\nBuzz\n19\nFizz\n17\n16\nFizzBuzz" ]
+      },
+      {
+        "inputs": [ "2 1" ],
+        "expected_outputs": [ "2\n1" ]
+      },
+      {
+        "inputs": [ "3 3" ],
+        "expected_outputs": [ "Fizz" ]
+      },
+      {
+        "inputs": [ "5 5" ],
+        "expected_outputs": [ "Buzz" ]
+      },
+      {
+        "inputs": [ "15 15" ],
+        "expected_outputs": [ "FizzBuzz" ]
+      }
+    ]
+  }
+  

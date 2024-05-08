@@ -1,0 +1,38 @@
+{
+  "problem_name": "CalculadoraFactorial.java",
+  "problem_title": "Calculadora Factorial",
+  "description": "Dado un número entero n, calcula su factorial.",
+  "input_format": "La entrada consiste en un único número entero n (0 ≤ n ≤ 10).",
+  "constraints": "0 ≤ n ≤ 10",
+  "output_format": "Imprime el factorial de n en una sola línea.",
+  "params_count": 1,
+  "outputs_count": 1,
+  "total_test_cases": 6,
+  "use_locale": false,
+  "test_cases": [
+    {
+      "inputs": ["0"],
+      "expected_outputs": ["1"]
+    },
+    {
+      "inputs": ["1"],
+      "expected_outputs": ["1"]
+    },
+    {
+      "inputs": ["2"],
+      "expected_outputs": ["2"]
+    },
+    {
+      "inputs": ["3"],
+      "expected_outputs": ["6"]
+    },
+    {
+      "inputs": ["4"],
+      "expected_outputs": ["24"]
+    },
+    {
+      "inputs": ["5"],
+      "expected_outputs": ["120"]
+    }
+  ]
+}

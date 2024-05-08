@@ -1,0 +1,31 @@
+{
+    "problem_name": "CuentaPalabras.java",
+    "problem_title": "Cuenta palabras",
+    "description": "Dado un texto, cuenta el número de palabras que contiene.",
+    "input_format": "Un string con varios saltos de línea. El texto termina con la palabra END (que no debe procesarse).",
+    "constraints": "1 <= L <= 100",
+    "output_format": "Un entero indicando el número de palabras",
+    "params_count": 1,
+    "outputs_count": 1,
+    "total_test_cases": 4,
+    "use_locale": false,
+    "test_cases": [
+      {
+        "inputs": [ "hola mundo!\nEND" ],
+        "expected_outputs": [ "2" ]
+      },
+      {
+        "inputs": [ "hola, que tal.\nEND" ],
+        "expected_outputs": [ "3" ]
+      },
+      {
+        "inputs": [ "Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit.\nEND" ],
+        "expected_outputs": [ "8" ]
+      },
+      {
+        "inputs": [ "Lorem ipsum\ndolor sit amet,\nconsectetur adipiscing\nelit.\nEND" ],
+        "expected_outputs": [ "8" ]
+      }
+    ]
+  }
+  

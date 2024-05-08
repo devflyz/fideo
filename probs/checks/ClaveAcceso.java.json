@@ -1,0 +1,43 @@
+{
+    "problem_name": "ClaveAcceso.java",
+    "problem_title": "Clave de acceso",
+    "description": "Para poder ingresar a un edificio secreto del gobierno, los agentes secretos deben introducir una clave de acceso que consiste en números enteros. El sistema de apertura de la puerta tiene una serie de números enteros y, para abrir la puerta, es necesario que los números introducidos estén en la lista de números que tiene el sistema (sin importar el orden).",
+    "input_format": "Primera línea:\n- n: Cantidad de números de la clave de acceso.\nSegunda línea:\n- m: Los números que forman parte de la clave de acceso, separados por un espacio en blanco.\nTercera línea:\n- q: Cantidad de números que contiene el sistema de apertura.\nCuarta línea:\n- Los números que forman parte del sistema de apertura, separados por un espacio en blanco.",
+    "constraints": "1 ≤ n, q ≤ 100\n0 ≤ m, sistema ≤ 1000",
+    "output_format": "Si es posible abrir la puerta (todos los números introducidos están en el sistema): OK\nSi no es posible abrir la puerta (alguno de los números introducidos no está en el sistema): ERROR",
+    "sample_input": [
+      {
+        "input": "1\n7\n1\n7",
+        "output": "OK"
+      },
+      {
+        "input": "1\n7\n1\n25",
+        "output": "ERROR"
+      },
+      {
+        "input": "1\n7\n3\n2 7 0",
+        "output": "OK"
+      },
+      {
+        "input": "1\n7\n3\n25 0 19",
+        "output": "ERROR"
+      },
+      {
+        "input": "3\n13 42 25\n5\n66 13 25 42 77",
+        "output": "OK"
+      },
+      {
+        "input": "3\n7 11 17\n5\n9 3 23 56 21",
+        "output": "ERROR"
+      },
+      {
+        "input": "3\n7 11 17\n5\n43 7 23 17 21",
+        "output": "ERROR"
+      },
+      {
+        "input": "4\n312 5 71 91\n3\n91 5 312",
+        "output": "ERROR"
+      }
+    ]
+  }
+  

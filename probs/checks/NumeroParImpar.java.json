@@ -1,0 +1,26 @@
+{
+  "problem_name": "NumeroParImpar.java",
+  "problem_title": "Número par o impar",
+  "description": "Determina si un número dado es par o impar.",
+  "input_format": "Un número entero positivo.",
+  "constraints": "El número entero es positivo.",
+  "output_format": "Imprime 'Par' si el número es par, 'Impar' si el número es impar.",
+  "params_count": 1,
+  "outputs_count": 1,
+  "total_test_cases": 3,
+  "use_locale": false,
+  "test_cases": [
+    {
+      "inputs": ["10"],
+      "expected_outputs": ["Par"]
+    },
+    {
+      "inputs": ["7"],
+      "expected_outputs": ["Impar"]
+    },
+    {
+      "inputs": ["0"],
+      "expected_outputs": ["Par"]
+    }
+  ]
+}

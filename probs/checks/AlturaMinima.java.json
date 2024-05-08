@@ -1,0 +1,38 @@
+{
+  "problem_name": "AlturaMinima.java",
+  "problem_title": "Altura Mínima",
+  "description": "Determina si una serie de personas cumple con una altura mínima requerida.",
+  "input_format": "La primera línea contiene un número entero n, el número de personas. Las siguientes n líneas contienen la altura de cada persona.",
+  "constraints": "1 ≤ n ≤ 1000, 1 ≤ altura ≤ 2.00",
+  "output_format": "Para cada persona, imprime 'SI' si cumple con la altura mínima o 'NO' si no la cumple, en líneas separadas.",
+  "params_count": 1,
+  "outputs_count": 1,
+  "total_test_cases": 6,
+  "use_locale": false,
+  "test_cases": [
+    {
+      "inputs": ["5", "1.50", "1.40", "1.55", "1.35", "1.40", "1.45"],
+      "expected_outputs": ["SI", "NO", "SI", "NO", "NO"]
+    },
+    {
+      "inputs": ["3", "1.30", "1.40", "1.50", "1.40"],
+      "expected_outputs": ["NO", "SI", "SI"]
+    },
+    {
+      "inputs": ["4", "1.44", "1.45", "1.46", "1.47", "1.44"],
+      "expected_outputs": ["SI", "SI", "SI", "SI"]
+    },
+    {
+      "inputs": ["1", "1.51", "1.51"],
+      "expected_outputs": ["SI"]
+    },
+    {
+      "inputs": ["10", "1.46", "1.43", "1.56", "1.57", "1.50", "1.51", "1.39", "1.45", "1.60", "1.47", "1.50"],
+      "expected_outputs": ["NO", "NO", "SI", "SI", "SI", "SI", "NO", "NO", "SI", "NO"]
+    },
+    {
+      "inputs": ["2", "1.40", "1.50", "1.45"],
+      "expected_outputs": ["NO", "SI"]
+    }
+  ]
+}

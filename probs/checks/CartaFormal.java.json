@@ -1,0 +1,26 @@
+{
+  "problem_name": "CartaFormal.java",
+  "problem_title": "Carta Formal",
+  "description": "Queremos enviar una carta formal a nuestros clientes, y queremos generar de forma automática el encabezado para cada cliente. En nuestra base de datos de clientes tenemos los campos: tratamiento, nombre, apellido1 y apellido2. Haz un programa que genere este encabezado con el formato que se observa en la Salida de Ejemplo.",
+  "input_format": "La entrada consta de 4 líneas:\n\ntratamiento\nnombre\napellido1\napellido2",
+  "constraints": "-",
+  "output_format": "-",
+  "params_count": 1,
+  "outputs_count": 1,
+  "total_test_cases": 3,
+  "use_locale": false,
+  "test_cases": [
+    {
+      "inputs": ["Señor", "Antoni", "Perez", "Sales"],
+      "expected_outputs": ["Señor Perez Sales, Antoni\n\nEl principal objetivo de la presente carta..."]
+    },
+    {
+      "inputs": ["Excelentísima señora", "Maria Antonia", "de la Fuente", "Rodriguez"],
+      "expected_outputs": ["Excelentísima señora de la Fuente Rodriguez, Maria Antonia\n\nEl principal objetivo de la presente carta..."]
+    },
+    {
+      "inputs": ["Sra.", "Juana", "Garcia", "Romero"],
+      "expected_outputs": ["Sra. Garcia Romero, Juana\n\nEl principal objetivo de la presente carta..."]
+    }
+  ]
+}

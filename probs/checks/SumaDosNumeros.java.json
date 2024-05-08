@@ -1,0 +1,26 @@
+{
+  "problem_name": "SumaDosNumeros.java",
+  "problem_title": "Suma de dos números",
+  "description": "Calcula la suma de dos números enteros.",
+  "input_format": "Dos números enteros separados por un espacio en blanco.",
+  "constraints": "Ambos números enteros están en el rango de los enteros de 32 bits.",
+  "output_format": "Un número entero representando la suma de los dos números.",
+  "params_count": 1,
+  "outputs_count": 1,
+  "total_test_cases": 3,
+  "use_locale": false,
+  "test_cases": [
+    {
+      "inputs": ["3 5"],
+      "expected_outputs": ["8"]
+    },
+    {
+      "inputs": ["-2 7"],
+      "expected_outputs": ["5"]
+    },
+    {
+      "inputs": ["100 200"],
+      "expected_outputs": ["300"]
+    }
+  ]
+}

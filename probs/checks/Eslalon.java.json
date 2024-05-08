@@ -1,0 +1,27 @@
+{
+    "problem_name": "Eslalon.java",
+    "problem_title": "Eslalón",
+    "description": "Un esquiador alpino participa en una carrera de eslalón y queremos mostrar por pantalla los banderines por los que pasa durante su descenso. La carrera finaliza cuando el esquiador llega a la meta.",
+    "input_format": "Un conjunto de palabras BANDERIN (cada una en una línea nueva) finalizado por la palabra META.",
+    "constraints": [
+      "Cada línea de la entrada solo puede contener la palabra BANDERIN o la palabra META.",
+      "La palabra META siempre será la última.",
+      "El esquiador siempre pasa por al menos un banderín."
+    ],
+    "output_format": "Cada vez que el esquiador pase por un banderín, se debe mostrar el texto BANDERIN N donde N es el número del banderín por el que ha pasado (el primer banderín será el número 1).",
+    "sample_input": [
+      {
+        "input": "BANDERIN\nBANDERIN\nBANDERIN\nMETA\n",
+        "output": "BANDERIN 1\nBANDERIN 2\nBANDERIN 3"
+      },
+      {
+        "input": "BANDERIN\nBANDERIN\nBANDERIN\nBANDERIN\nBANDERIN\nBANDERIN\nMETA\n",
+        "output": "BANDERIN 1\nBANDERIN 2\nBANDERIN 3\nBANDERIN 4\nBANDERIN 5\nBANDERIN 6"
+      },
+      {
+        "input": "BANDERIN\nMETA\n",
+        "output": "BANDERIN 1"
+      }
+    ]
+  }
+  

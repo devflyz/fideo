@@ -1,0 +1,26 @@
+{
+  "problem_name": "ContadorVocales.java",
+  "problem_title": "Contador de Vocales",
+  "description": "Escribe un programa que cuente el número de vocales en una cadena de texto dada.",
+  "input_format": "Una cadena de texto.",
+  "constraints": "La cadena de texto contiene solo letras minúsculas y mayúsculas, sin espacios ni otros caracteres.",
+  "output_format": "Un entero que representa el número de vocales en la cadena de texto.",
+  "params_count": 1,
+  "outputs_count": 1,
+  "total_test_cases": 3,
+  "use_locale": false,
+  "test_cases": [
+    {
+      "inputs": ["HolaMundo"],
+      "expected_outputs": ["4"]
+    },
+    {
+      "inputs": ["OpenAI"],
+      "expected_outputs": ["4"]
+    },
+    {
+      "inputs": ["Programacion"],
+      "expected_outputs": ["5"]
+    }
+  ]
+}

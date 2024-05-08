@@ -1,0 +1,26 @@
+{
+    "problem_name": "RobotAspiradora.java",
+    "problem_title": "Robot aspiradora",
+    "description": "Un robot aspirador de gama baja siempre avanza hacia adelante hasta que se encuentra frontalmente con algún obstáculo, momento en el cual se detiene. Escribe el diagrama de un programa que haga lo descrito anteriormente y que al final muestre por pantalla el número de tramos que ha podido avanzar.",
+    "input_format": "Un conjunto de palabras CLEAN (cada una en una línea nueva) finalizado por la palabra OBSTACULO.",
+    "constraints": "-",
+    "output_format": "Un número entero que indica la cantidad de pasos (CLEAN) que se han hecho antes de tropezar con un obstáculo (OBSTACULO).",
+    "params_count": 1,
+    "outputs_count": 1,
+    "total_test_cases": 3,
+    "use_locale": false,
+    "test_cases": [
+      {
+        "inputs": [ "CLEAN\nCLEAN\nCLEAN\nOBSTACULO" ],
+        "expected_outputs": [ "3" ]
+      },
+      {
+        "inputs": [ "CLEAN\nCLEAN\nCLEAN\nCLEAN\nCLEAN\nCLEAN\nOBSTACULO" ],
+        "expected_outputs": [ "6" ]
+      },
+      {
+        "inputs": [ "OBSTACULO" ],
+        "expected_outputs": [ "0" ]
+      }
+    ]
+}  

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estado de las Peticiones</title>
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            color: #ffffff;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            border: 1px solid #333333;
+            text-align: left;
+            padding: 12px;
+        }
+
+        th {
+            background-color: #333333;
+        }
+
+        tr:nth-child(even) {
+            background-color: #2c2c2c;
+        }
+
+        @media only screen and (max-width: 768px) {
+            table {
+                font-size: 14px;
+            }
+        }
+
+        @media only screen and (max-width: 600px) {
+            table {
+                font-size: 12px;
+            }
+        }
+
+        @media only screen and (max-width: 400px) {
+            table {
+                font-size: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<h2>Estado de las Peticiones</h2>
+
+<table id="peticiones">
+    <tr>
+        <th>Archivo</th>
+        <th>Estado</th>
+    </tr>
+</table>
+
+<script>
+    // URL del JSON
+    const url = "https://raw.githubusercontent.com/devflyz/devflyz.github.io/main/check/check_status.json";
+
+    // Obtener datos del JSON
+    fetch(url)
+        .then(response => response.json())
+        .then(data => {
+            // Referencia a la tabla
+            const tabla = document.getElementById("peticiones");
+
+            // Recorrer el JSON y crear las filas de la tabla
+            Object.entries(data).forEach(([archivo, estado]) => {
+                const fila = document.createElement("tr");
+
+                const celdaArchivo = document.createElement("td");
+                celdaArchivo.textContent = archivo;
+                fila.appendChild(celdaArchivo);
+
+                const celdaEstado = document.createElement("td");
+                celdaEstado.textContent = estado ? "✅" : "❌";
+                fila.appendChild(celdaEstado);
+
+                tabla.appendChild(fila);
+            });
+        })
+        .catch(error => {
+            console.error("Error al obtener datos:", error);
+        });
+</script>
+
+</body>
+</html>

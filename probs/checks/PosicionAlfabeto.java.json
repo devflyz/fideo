@@ -1,0 +1,30 @@
+{
+  "problem_name": "PosicionAlfabeto.java",
+  "problem_title": "Posición en el Alfabeto",
+  "description": "Dada una palabra, imprime la posición en el alfabeto (empezando desde 0) de cada letra de la palabra, una por línea.",
+  "input_format": "La entrada consiste en una única palabra en minúsculas (String).",
+  "constraints": "-",
+  "output_format": "Imprime la posición en el alfabeto (empezando desde 0) de cada letra de la palabra, una por línea.",
+  "params_count": 1,
+  "outputs_count": 1,
+  "total_test_cases": 2,
+  "use_locale": false,
+  "test_cases": [
+    {
+      "inputs": [ "hola" ],
+      "expected_outputs": [ "7\n14\n11\n0" ]
+    },
+    {
+      "inputs": [ "mon" ],
+      "expected_outputs": [ "12\n14\n13" ]
+    },
+    {
+      "inputs": [ "java" ],
+      "expected_outputs": [ "9\n0\n21\n0" ]
+    },
+    {
+      "inputs": [ "Buenos dias" ],
+      "expected_outputs": [ "1\n20\n4\n13\n14\n18" ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "problem_name": "TablaMultiplicar.java",
+  "problem_title": "Tabla de multiplicar",
+  "description": "Imprime la tabla de multiplicar de un número dado.",
+  "input_format": "Un número entero positivo.",
+  "constraints": "El número entero es positivo.",
+  "output_format": "Imprime la tabla de multiplicar del número dado hasta 10, cada multiplicación en una línea separada.",
+  "params_count": 1,
+  "outputs_count": 1,
+  "total_test_cases": 3,
+  "use_locale": false,
+  "test_cases": [
+    {
+      "inputs": [5],
+      "expected_outputs": ["5", "10", "15", "20", "25", "30", "35", "40", "45", "50"]
+    },
+    {
+      "inputs": [3],
+      "expected_outputs": ["3", "6", "9", "12", "15", "18", "21", "24", "27", "30"]
+    },
+    {
+      "inputs": [7],
+      "expected_outputs": ["7", "14", "21", "28", "35", "42", "49", "56", "63", "70"]
+    }
+  ]
+}

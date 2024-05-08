@@ -1,0 +1,26 @@
+{
+  "problem_name": "UnicodePoints.java",
+  "problem_title": "Unicode Points",
+  "description": "Unicode es una codificación de caracteres textuales que puede representar caracteres de muchos idiomas. Cada carácter es representado por un Unicode code point. Un code point es un número entero que identifica de forma única un carácter. Dados 6 code points, imprime el texto codificado.",
+  "input_format": "6 números enteros",
+  "constraints": "-",
+  "output_format": "texto",
+  "params_count": 1,
+  "outputs_count": 1,
+  "total_test_cases": 3,
+  "use_locale": false,
+  "test_cases": [
+    {
+      "inputs": ["97 98 99 100 101 102"],
+      "expected_outputs": ["abcdef"]
+    },
+    {
+      "inputs": ["119 97 32 121 101 97"],
+      "expected_outputs": ["wa yea"]
+    },
+    {
+      "inputs": ["65 90 97 122 48 57"],
+      "expected_outputs": ["AZaz09"]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "problem_name": "ContratarChef.java",
+  "problem_title": "Contratar un Chef",
+  "description": "Imagina que eres el jefe de personal de un restaurante y debes contratar un chef. Para hacerlo, debes recopilar algunos datos preliminares de los candidatos.",
+  "input_format": "La entrada consta de 5 líneas:\n\nEn la primera línea está el nombre (String)\nEn la segunda línea está la edad (int)\nEn la tercera línea está el nivel de estudios (String)\nEn la cuarta línea están los años (int)\nEn la quinta línea está el tipo de cocina (String)",
+  "constraints": "-",
+  "output_format": "Imprime 'El formulario de [nombre] se ha completado. Te contactaremos si necesitamos un chef de cocina [tipo de cocina].' donde [nombre] es el nombre del candidato y [tipo de cocina] es el tipo de cocina especificado.",
+  "params_count": 1,
+  "outputs_count": 1,
+  "total_test_cases": 4,
+  "use_locale": false,
+  "test_cases": [
+    {
+      "inputs": ["Joan", "33", "secundaria", "4", "tradicional"],
+      "expected_outputs": ["El formulario de Joan se ha completado. Te contactaremos si necesitamos un chef de cocina tradicional."]
+    },
+    {
+      "inputs": ["Miquel", "24", "universitari", "2", "fusión"],
+      "expected_outputs": ["El formulario de Miquel se ha completado. Te contactaremos si necesitamos un chef de cocina fusión."]
+    },
+    {
+      "inputs": ["Maria Elena", "34", "universitari", "10", "vanguardista"],
+      "expected_outputs": ["El formulario de Maria Elena se ha completado. Te contactaremos si necesitamos un chef de cocina vanguardista."]
+    },
+    {
+      "inputs": ["Josep Antoni", "20", "sin estudios", "3", "nouvelle cuisine"],
+      "expected_outputs": ["El formulario de Josep Antoni se ha completado. Te contactaremos si necesitamos un chef de cocina nouvelle cuisine."]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "problem_name": "OperacionesNumericas.java",
+  "problem_title": "Operaciones numéricas",
+  "description": "Realiza operaciones numéricas simples con dos números dados.",
+  "input_format": "Dos números enteros separados por un espacio en blanco.",
+  "constraints": "Ambos números son enteros y tienen al menos un dígito.",
+  "output_format": "El resultado de las operaciones: suma, resta, multiplicación y división (con redondeo a dos decimales), cada uno en una línea separada.",
+  "params_count": 2,
+  "outputs_count": 4,
+  "total_test_cases": 3,
+  "use_locale": true,
+  "test_cases": [
+    {
+      "inputs": [10, 5],
+      "expected_outputs": ["15", "5", "50", "2.00"]
+    },
+    {
+      "inputs": [8, 3],
+      "expected_outputs": ["11", "5", "24", "2.67"]
+    },
+    {
+      "inputs": [15, 7],
+      "expected_outputs": ["22", "8", "105", "2.14"]
+    }
+  ]
+}

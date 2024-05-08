@@ -1,0 +1,26 @@
+{
+  "problem_name": "Cuadrado.java",
+  "problem_title": "Área de un cuadrado",
+  "description": "Calcula el área de un cuadrado dado su lado.",
+  "input_format": "Un número decimal representando el lado del cuadrado.",
+  "constraints": "El lado del cuadrado es un número real positivo.",
+  "output_format": "Un número decimal representando el área del cuadrado.",
+  "params_count": 1,
+  "outputs_count": 1,
+  "total_test_cases": 3,
+  "use_locale": true,
+  "test_cases": [
+    {
+      "inputs": ["5"],
+      "expected_outputs": ["25.0"]
+    },
+    {
+      "inputs": ["2.5"],
+      "expected_outputs": ["6.25"]
+    },
+    {
+      "inputs": ["10"],
+      "expected_outputs": ["100.0"]
+    }
+  ]
+}

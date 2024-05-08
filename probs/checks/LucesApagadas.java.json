@@ -1,0 +1,26 @@
+{
+  "problem_name": "LucesApagadas.java",
+  "problem_title": "Luces apagadas",
+  "description": "Se está desarrollando una aplicación para controlar las luces de una casa. La aplicación debe indicar si todas las luces de la casa están apagadas. En total hay 4 luces.",
+  "input_format": "La entrada consiste en 4 valores booleanos que indican si cada una de las luces está encendida o apagada.\n\ntrue => encendida\n\nfalse => apagada",
+  "constraints": "-",
+  "output_format": "Se debe imprimir true si todas las luces están apagadas, y false si hay alguna luz encendida.",
+  "params_count": 1,
+  "outputs_count": 1,
+  "total_test_cases": 3,
+  "use_locale": false,
+  "test_cases": [
+    {
+      "inputs": [ "false", "false", "false", "false" ],
+      "expected_outputs": [ "false" ]
+    },
+    {
+      "inputs": [ "true", "false", "false", "false" ],
+      "expected_outputs": [ "false" ]
+    },
+    {
+      "inputs": [ "false", "false", "false", "true" ],
+      "expected_outputs": [ "false" ]
+    }
+  ]
+}

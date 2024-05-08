@@ -1,0 +1,39 @@
+{
+    "problem_name": "LineaDePuntos.java",
+    "problem_title": "Línea de puntos",
+    "description": "Pinta una línea con la cantidad de puntos indicada.",
+    "input_format": "Un número entero.",
+    "constraints": "-",
+    "output_format": "Una línea de puntos con la cantidad especificada.",
+    "params_count": 1,
+    "outputs_count": 1,
+    "total_test_cases": 6,
+    "use_locale": false,
+    "test_cases": [
+      {
+        "inputs": [ "3" ],
+        "expected_outputs": [ "..." ]
+      },
+      {
+        "inputs": [ "5" ],
+        "expected_outputs": [ "....." ]
+      },
+      {
+        "inputs": [ "10" ],
+        "expected_outputs": [ ".........." ]
+      },
+      {
+        "inputs": [ "20" ],
+        "expected_outputs": [ "...................." ]
+      },
+      {
+        "inputs": [ "100" ],
+        "expected_outputs": [ "...................................................................................................." ]
+      },
+      {
+        "inputs": [ "229" ],
+        "expected_outputs": [ "....................................................................................................................................................................................................................................." ]
+      }
+    ]
+  }
+  

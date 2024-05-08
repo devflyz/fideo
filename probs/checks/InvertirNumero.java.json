@@ -1,0 +1,26 @@
+{
+  "problem_name": "InvertirNumero.java",
+  "problem_title": "Invertir un número",
+  "description": "Invierte un número entero dado.",
+  "input_format": "Un número entero positivo.",
+  "constraints": "El número entero tiene al menos un dígito.",
+  "output_format": "El número entero invertido.",
+  "params_count": 1,
+  "outputs_count": 1,
+  "total_test_cases": 3,
+  "use_locale": false,
+  "test_cases": [
+    {
+      "inputs": ["123"],
+      "expected_outputs": ["321"]
+    },
+    {
+      "inputs": ["9876"],
+      "expected_outputs": ["6789"]
+    },
+    {
+      "inputs": ["505"],
+      "expected_outputs": ["505"]
+    }
+  ]
+}

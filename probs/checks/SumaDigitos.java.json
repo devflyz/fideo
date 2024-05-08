@@ -1,0 +1,31 @@
+{
+    "problem_name": "SumaDigitos.java",
+    "problem_title": "Suma dígitos",
+    "description": "Dado un número entero positivo, realiza la suma de sus dígitos.",
+    "input_format": "Un número entero positvo N.",
+    "constraints": "0 <= N <= 2147483647",
+    "output_format": "Un número entero.",
+    "params_count": 1,
+    "outputs_count": 1,
+    "total_test_cases": 4,
+    "use_locale": false,
+    "test_cases": [
+      {
+        "inputs": [ "123" ],
+        "expected_outputs": [ "6" ]
+      },
+      {
+        "inputs": [ "11111" ],
+        "expected_outputs": [ "5" ]
+      },
+      {
+        "inputs": [ "100000" ],
+        "expected_outputs": [ "1" ]
+      },
+      {
+        "inputs": [ "2147483647" ],
+        "expected_outputs": [ "46" ]
+      }
+    ]
+  }
+  

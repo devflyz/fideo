@@ -1,0 +1,30 @@
+{
+  "problem_name": "Saludo.java",
+  "problem_title": "Saludo",
+  "description": "Dado el nombre de una persona, hazle un saludo en español.",
+  "input_format": "Un string con el nombre de una persona.",
+  "constraints": "-",
+  "output_format": "La palabra 'Hola' seguida de un espacio en blanco, el nombre de la persona, y un signo de exclamación '!'",
+  "params_count": 1,
+  "outputs_count": 1,
+  "total_test_cases": 4,
+  "use_locale": false,
+  "test_cases": [
+    {
+      "inputs": ["Joan"],
+      "expected_outputs": ["Hola Joan!"]
+    },
+    {
+      "inputs": ["Anna"],
+      "expected_outputs": ["Hola Anna!"]
+    },
+    {
+      "inputs": ["Josep Antoni"],
+      "expected_outputs": ["Hola Josep Antoni!"]
+    },
+    {
+      "inputs": ["Sara Elena"],
+      "expected_outputs": ["Hola Sara Elena!"]
+    }
+  ]
+}

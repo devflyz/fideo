@@ -1,0 +1,47 @@
+{
+    "problem_name": "ControlCalidad.java",
+    "problem_title": "Control de calidad",
+    "description": "Una empresa que se dedica a fabricar coches necesita un programa que realice el control de calidad de las diferentes piezas que utilizan. La aplicación que se debe programar debe mostrar un mensaje indicando cuál es el estado de cada pieza y el estado global del coche, que solo será correcto si todas sus piezas también lo son.",
+    "input_format": "Un booleano que indica el estado del chasis: correcto (true) o defectuoso (false)\nUn booleano que indica el estado de las ruedas: correcto (true) o defectuosas (false)\nUn booleano que indica el estado del motor: correcto (true) o defectuoso (false)\nUn booleano que indica el estado de la electrónica: correcto (true) o defectuosa (false)\nUn booleano que indica el estado de las luces: correcto (true) o defectuosas (false)",
+    "constraints": "-",
+    "output_format": "El estado del chasis es:\nEl estado de las ruedas es:\nEl estado del motor es:\nEl estado de la electrónica es:\nEl estado de las luces es:\nEl estado general del coche es: Donde cada elemento puede valer correcto o defectuoso.",
+    "params_count": 1,
+    "outputs_count": 1,
+    "total_test_cases": 8,
+    "use_locale": false,
+    "test_cases": [
+      {
+        "inputs": ["true true true true true"],
+        "expected_outputs": ["El estado del chasis es: correcto\nEl estado de las ruedas es: correcto\nEl estado del motor es: correcto\nEl estado de la electrónica es: correcto\nEl estado de las luces es: correcto\nEl estado general del coche es: correcto"]
+      },
+      {
+        "inputs": ["false false false false false"],
+        "expected_outputs": ["El estado del chasis es: defectuoso\nEl estado de las ruedas es: defectuoso\nEl estado del motor es: defectuoso\nEl estado de la electrónica es: defectuoso\nEl estado de las luces es: defectuoso\nEl estado general del coche es: defectuoso"]
+      },
+      {
+        "inputs": ["false true true true true"],
+        "expected_outputs": ["El estado del chasis es: defectuoso\nEl estado de las ruedas es: correcto\nEl estado del motor es: correcto\nEl estado de la electrónica es: correcto\nEl estado de las luces es: correcto\nEl estado general del coche es: defectuoso"]
+      },
+      {
+        "inputs": ["true false true true true"],
+        "expected_outputs": ["El estado del chasis es: correcto\nEl estado de las ruedas es: defectuoso\nEl estado del motor es: correcto\nEl estado de la electrónica es: correcto\nEl estado de las luces es: correcto\nEl estado general del coche es: defectuoso"]
+      },
+      {
+        "inputs": ["true true false true true"],
+        "expected_outputs": ["El estado del chasis es: correcto\nEl estado de las ruedas es: correcto\nEl estado del motor es: defectuoso\nEl estado de la electrónica es: correcto\nEl estado de las luces es: correcto\nEl estado general del coche es: defectuoso"]
+      },
+      {
+        "inputs": ["true true true false true"],
+        "expected_outputs": ["El estado del chasis es: correcto\nEl estado de las ruedas es: correcto\nEl estado del motor es: correcto\nEl estado de la electrónica es: defectuoso\nEl estado de las luces es: correcto\nEl estado general del coche es: defectuoso"]
+      },
+      {
+        "inputs": ["true true true true false"],
+        "expected_outputs": ["El estado del chasis es: correcto\nEl estado de las ruedas es: correcto\nEl estado del motor es: correcto\nEl estado de la electrónica es: correcto\nEl estado de las luces es: defectuoso\nEl estado general del coche es: defectuoso"]
+      },
+      {
+        "inputs": ["true false true false true"],
+        "expected_outputs": ["El estado del chasis es: correcto\nEl estado de las ruedas es: defectuoso\nEl estado del motor es: correcto\nEl estado de la electrónica es: defectuoso\nEl estado de las luces es: correcto\nEl estado general del coche es: defectuoso"]
+      }
+    ]
+  }
+  

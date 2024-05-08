@@ -1,0 +1,30 @@
+{
+  "problem_name": "RepeatX.java",
+  "problem_title": "Repetir X",
+  "description": "Dado un número entero positivo X, imprime X veces el valor de X en una sola línea.",
+  "input_format": "La entrada consiste en un único entero X (1 <= X <= 1000).",
+  "constraints": "1 <= X <= 1000",
+  "output_format": "Imprime X veces el valor de X en una sola línea.",
+  "params_count": 1,
+  "outputs_count": 1,
+  "total_test_cases": 4,
+  "use_locale": false,
+  "test_cases": [
+    {
+      "inputs": [ "2" ],
+      "expected_outputs": [ "22" ]
+    },
+    {
+      "inputs": [ "5" ],
+      "expected_outputs": [ "55555" ]
+    },
+    {
+      "inputs": [ "3" ],
+      "expected_outputs": [ "333" ]
+    },
+    {
+      "inputs": [ "1" ],
+      "expected_outputs": [ "1" ]
+    }
+  ]
+}
