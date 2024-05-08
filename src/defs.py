@@ -278,3 +278,24 @@ def compile_java_file(java_file):
     else:
         print(f"{COLOR_GREEN}Compilación exitosa:{COLOR_RESET} {java_file}")
         return True
+
+def check_internet_connection():
+    try:
+        requests.get("http://www.google.com", timeout=1)
+        return True
+    except requests.ConnectionError:
+        return False
+
+def update_fideo():
+    # Verificar conexión a Internet
+    if not check_internet_connection():
+        print("No se puede actualizar, no hay conexión a Internet.")
+        return
+
+    # Actualizar fideo desde GitHub
+    try:
+        print("Verificando actualizaciones...")
+        subprocess.run(["git", "pull"], cwd=FIDEO_DIR, check=True)
+        print("Fideo ha sido actualizado correctamente.")
+    except subprocess.CalledProcessError:
+        print("Error al actualizar fideo.")

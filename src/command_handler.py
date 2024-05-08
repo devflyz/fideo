@@ -1,6 +1,4 @@
 # command_handler.py
-
-import sys
 from imports import *
 from constants import *
 from defs import *

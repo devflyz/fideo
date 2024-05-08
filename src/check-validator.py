@@ -1,6 +1,5 @@
-import os
-import json
-from constants import COLOR_GREEN, COLOR_RED, COLOR_CYAN, COLOR_RESET
+from imports import *
+from constants import *
 
 def check_json_file(file_path):
     with open(file_path, 'r') as file:
@@ -40,4 +39,3 @@ def main(folder_path):
 if __name__ == "__main__":
     folder_path = '../probs/checks'  # Change this to the path of your JSON files folder
     main(folder_path)
-
