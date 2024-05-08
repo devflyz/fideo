@@ -28,7 +28,7 @@ if len(sys.argv) > 1:
         exit(0)
     elif sys.argv[1] == "--update" or sys.argv[1] == "-u":
         update_fideo()
-        exit(0):
+        exit(0)
     elif sys.argv[1] in get_known_java_files():
         selected_java_file = sys.argv[1]
     elif sys.argv[1] == "--list" or sys.argv[1] == "-l":
