@@ -195,7 +195,7 @@ def show_known_java_files(known_java_files):
         return
 
     max_columns = 5  # Número máximo de columnas
-    max_files = 10  # Número máximo de archivos a imprimir por columna
+    max_files = 15  # Número máximo de archivos a imprimir por columna
     num_files = len(known_java_files)
     num_columns = min((num_files + max_files - 1) // max_files, max_columns)  # Calcula el número de columnas
 
